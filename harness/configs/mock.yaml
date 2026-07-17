@@ -1,5 +1,6 @@
 testbank_dir: ../../examples
 output_dir: ../out/mock-run
+max_budget_usd: null
 agent:
   type: mock
 judge:

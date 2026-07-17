@@ -1,0 +1,16 @@
+testbank_dir: ../../examples
+output_dir: ../out/mock-llm-judge-run
+max_budget_usd: null
+agent:
+  type: mock
+judge:
+  type: llm
+  provider: anthropic_api
+  model: ""
+  rubric: rubrics/behavior.md
+  api_key: ""  # Keep empty. The adapter only reads the environment variable below.
+  api_key_env: ANTHROPIC_API_KEY
+  max_tokens: 256
+  timeout_seconds: 60
+  input_cost_per_million_usd: null
+  output_cost_per_million_usd: null

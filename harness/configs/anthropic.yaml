@@ -1,0 +1,14 @@
+testbank_dir: ../../examples
+output_dir: ../out/anthropic-run
+max_budget_usd: null
+agent:
+  type: anthropic_api
+  model: ""
+  api_key: ""  # Keep empty. The adapter only reads the environment variable below.
+  api_key_env: ANTHROPIC_API_KEY
+  max_tokens: 1024
+  timeout_seconds: 60
+  input_cost_per_million_usd: null
+  output_cost_per_million_usd: null
+judge:
+  type: naive
