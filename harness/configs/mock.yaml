@@ -1,0 +1,6 @@
+testbank_dir: ../../examples
+output_dir: ../out/mock-run
+agent:
+  type: mock
+judge:
+  type: naive   # 正式版: llm, model 與受測端分離
