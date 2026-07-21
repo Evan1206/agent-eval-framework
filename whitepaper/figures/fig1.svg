@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="400" viewBox="0 0 680 400" font-family="'Noto Sans CJK TC','Microsoft JhengHei',sans-serif">
+  <rect width="680" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="positive-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1L9 5L1 9Z" fill="#d0563b"/>
+    </marker>
+    <marker id="neutral-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1L9 5L1 9Z" fill="#7a8290"/>
+    </marker>
+    <marker id="protective-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1L9 5L1 9Z" fill="#15806f"/>
+    </marker>
+  </defs>
+
+  <text x="340" y="27" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">影響因素 → 繭房程度：人與 AI Agent 的結構對映</text>
+
+  <rect x="18" y="48" width="312" height="306" rx="14" fill="#faf8ff" stroke="#c9bce8" stroke-width="1.5"/>
+  <rect x="350" y="48" width="312" height="306" rx="14" fill="#fff9f7" stroke="#edc0b5" stroke-width="1.5"/>
+  <text x="174" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#3d2b6b">人｜論文實證結構</text>
+  <text x="506" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#7a2a18">AI Agent｜框架對映</text>
+
+  <rect x="38" y="98" width="152" height="54" rx="8" fill="#fdeae6" stroke="#d0563b" stroke-width="1.4"/>
+  <text x="114" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7a2a18">正向加固因素</text>
+  <text x="114" y="139" text-anchor="middle" font-size="11.5" fill="#7a2a18">H1、H6 獲支持</text>
+
+  <rect x="38" y="169" width="152" height="73" rx="8" fill="#f2f4f7" stroke="#9aa1ad" stroke-width="1.2"/>
+  <text x="114" y="188" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4f5662">其他受測因素</text>
+  <text x="114" y="207" text-anchor="middle" font-size="10.7" fill="#59616e">H2 媒體碎化・H3 資訊</text>
+  <text x="114" y="222" text-anchor="middle" font-size="10.7" fill="#59616e">有用性確認・H5 社會認同</text>
+  <text x="114" y="237" text-anchor="middle" font-size="10.3" fill="#7a8290">未達顯著</text>
+
+  <rect x="38" y="270" width="152" height="66" rx="8" fill="#e6f5f1" stroke="#15806f" stroke-width="2"/>
+  <text x="114" y="291" text-anchor="middle" font-size="12.8" font-weight="700" fill="#0c6658">渴望探索新知（NfC）</text>
+  <text x="114" y="310" text-anchor="middle" font-size="11.5" fill="#0c6658">H4・負向 β = -0.320</text>
+  <text x="114" y="327" text-anchor="middle" font-size="10.5" fill="#0c6658">保護因子</text>
+
+  <rect x="218" y="121" width="92" height="181" rx="12" fill="#efeafb" stroke="#7c5cbf" stroke-width="2"/>
+  <text x="264" y="187" text-anchor="middle" font-size="15" font-weight="700" fill="#3d2b6b">資訊繭房</text>
+  <text x="264" y="209" text-anchor="middle" font-size="15" font-weight="700" fill="#3d2b6b">程度</text>
+  <text x="264" y="236" text-anchor="middle" font-size="10.5" fill="#655881">依變數</text>
+
+  <line x1="190" y1="125" x2="214" y2="125" stroke="#d0563b" stroke-width="2.4" marker-end="url(#positive-arrow)"/>
+  <text x="202" y="114" text-anchor="middle" font-size="10.5" font-weight="700" fill="#d0563b">正向</text>
+  <line x1="190" y1="205" x2="214" y2="205" stroke="#7a8290" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#neutral-arrow)"/>
+  <line x1="214" y1="286" x2="194" y2="286" stroke="#15806f" stroke-width="2.8" marker-end="url(#protective-arrow)"/>
+  <text x="202" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#15806f">負向</text>
+
+  <rect x="370" y="111" width="152" height="66" rx="8" fill="#fdeae6" stroke="#d0563b" stroke-width="1.5"/>
+  <text x="446" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#7a2a18">企業端因素</text>
+  <text x="446" y="157" text-anchor="middle" font-size="10.8" fill="#7a2a18">各自影響 AI 繭化程度</text>
+
+  <rect x="370" y="259" width="152" height="77" rx="8" fill="#e6f5f1" stroke="#15806f" stroke-width="2"/>
+  <text x="446" y="280" text-anchor="middle" font-size="12.8" font-weight="700" fill="#0c6658">AI 保護因子</text>
+  <text x="446" y="300" text-anchor="middle" font-size="10.8" fill="#0c6658">主動尋求反例／查證</text>
+  <text x="446" y="318" text-anchor="middle" font-size="10.8" fill="#0c6658">跳出既有脈絡</text>
+
+  <rect x="550" y="121" width="92" height="181" rx="12" fill="#fdeae6" stroke="#d0563b" stroke-width="2"/>
+  <text x="596" y="187" text-anchor="middle" font-size="15" font-weight="700" fill="#7a2a18">AI 繭化</text>
+  <text x="596" y="209" text-anchor="middle" font-size="15" font-weight="700" fill="#7a2a18">程度</text>
+  <text x="596" y="236" text-anchor="middle" font-size="10.5" fill="#925f52">部署端結果</text>
+
+  <line x1="522" y1="144" x2="546" y2="144" stroke="#d0563b" stroke-width="2.4" marker-end="url(#positive-arrow)"/>
+  <text x="534" y="133" text-anchor="middle" font-size="10.5" font-weight="700" fill="#d0563b">加固</text>
+  <line x1="546" y1="286" x2="526" y2="286" stroke="#15806f" stroke-width="2.8" marker-end="url(#protective-arrow)"/>
+  <text x="534" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#15806f">抵抗</text>
+
+  <line x1="310" y1="211" x2="348" y2="211" stroke="#5d6680" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="329" y="198" text-anchor="middle" font-size="10.5" font-weight="700" fill="#5d6680">結構</text>
+  <text x="329" y="225" text-anchor="middle" font-size="10.5" font-weight="700" fill="#5d6680">對映</text>
+
+  <circle cx="170" cy="375" r="5" fill="#d0563b"/>
+  <text x="181" y="379" font-size="10.5" fill="#59616e">正向／加固</text>
+  <circle cx="310" cy="375" r="5" fill="#15806f"/>
+  <text x="321" y="379" font-size="10.5" fill="#59616e">負向／保護（反向箭頭）</text>
+</svg>
